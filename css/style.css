@@ -13,7 +13,6 @@ body{
 
 header{
     background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
 }
 .container{
     max-width: 1080px;
@@ -40,7 +39,7 @@ li{
 }
 
 .button-accedi{
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 10px;
     border: none;
 }
@@ -75,7 +74,7 @@ h2{
 
 .download-mac{
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     font-weight: 600;
     font-size: 20px;
@@ -90,8 +89,93 @@ h2{
     padding: 20px;
     color: white;
     background-color: #23272a;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     font-weight: 600;
     font-size: 20px;
+}
+
+/*Main*/
+
+/*section row*/
+
+.row{
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-reverse{
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.bg-grey{
+    background-color: #f6f6f6;
+}
+
+
+.row-left{
+    flex-basis: 60%;
+    min-height: 500px;
+}
+
+.row-right{
+    flex-basis: 40%;
+    min-height: 500px;
+}
+
+.title{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.description{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+/*section direction column*/
+
+.direction-column{
+    min-height: 1200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-title{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.small-description{
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+.img-text{
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.button-bg-blue{
+    padding: 30px 20px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #8ea1e1;
 }
