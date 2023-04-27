@@ -259,3 +259,14 @@ h2{
     font-size: 15px;
     background-color: #8ea1e1;
 }
+
+/*wave*/
+
+.wave{
+    display: block;
+    color: #f6f6f6;
+}
+
+.upsidedown{
+    rotate: 0.5turn;
+}
